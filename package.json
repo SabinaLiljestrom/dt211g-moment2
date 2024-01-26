@@ -2,10 +2,17 @@
   "name": "dt211g-moment2",
   "version": "1.0.0",
   "description": "Uppgiften är en del av kursen \"Frontend-baserad webbutveckling\".",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Sabina Liljeström",
-  "license": "ISC"
+  "license": "ISC",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "sharp": "^0.31.3"
+  }
 }
