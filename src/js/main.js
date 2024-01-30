@@ -1,13 +1,20 @@
 /* Av Sabina Liljeström */
 "use strict";
 const url = "https://dahlgren.miun.se/ramschema_ht23.php";
+const searchBar = document.getElementById ("searchBar")
 let coursesCodeEL = document.getElementById("course-code");
 let coursesNameEl = document.getElementById("course-name");
 let coursesProgressionEl = document.getElementById ("course-progression");
 //Händelsehanterare
 coursesCodeEL.addEventListener ("click", sortCourseCode, false); 
-coursesNameEl-addEventListener ("click", sortCourseName, false);
+coursesNameEl.addEventListener ("click", sortCourseName, false);
 coursesProgressionEl.addEventListener ("click", sortCourseProgression, false);
+
+searchBar.addEventListener("keyup", (e) => {
+    
+    console.log (e.target.value);
+});
+
 window.onload = init;
 
 async function init(){

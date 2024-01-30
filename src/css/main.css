@@ -13,7 +13,9 @@ body {/*utseende hela sidan*/
     margin-left: auto;
     margin-right: auto;
 }
-
+#searchBar {
+    width: 50%;
+ }
 /*--------------TABELL start-----------------------*/
 
 table {
@@ -32,5 +34,16 @@ th {
 tr:nth-child(even) {
 	background-color: #f2f2f2;
 }
-
+ #course-code {
+font-weight: bold;
+text-decoration: underline;
+}
+ #course-name {
+font-weight: bold;
+text-decoration: underline;
+ }
+ #course-progression{
+font-weight: bold;
+text-decoration: underline;
+ }
 /*----------TABELL slut-----------------------------*/
