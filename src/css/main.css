@@ -1,0 +1,36 @@
+body {/*utseende hela sidan*/
+    background-color: rgb(236, 240, 250);
+    color: black;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {/*utseende behållare med attribut container*/
+    background-color: white;
+    width: 96%;
+    padding: 2% 2% 2% 2%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--------------TABELL start-----------------------*/
+
+table {
+	/*--utseende tabell--*/
+	border: 1px solid;
+	width: 50%;
+	text-align: left;
+}
+
+th {
+	/*--utseende översta raden i tabell--*/
+	background-color: #a898ba;
+	width: 50%;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+/*----------TABELL slut-----------------------------*/
